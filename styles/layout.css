@@ -1,0 +1,10 @@
+table thead{
+  background-color: #0c94e0;
+  color: white;
+}
+table tfoot{
+  background-color: #55e322;
+}
+.manzana{
+  background-color: red;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="styles/layout.css"/>
+  </head>
+  <body>
+    <h1>Tienda</h1>
+    <input type="button" value="+ Manzana" onclick="addManzana();">
+    <input type="button" value="+ Caja de Leche" onclick="addLeche();">
+    <h2>carrito</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody id="body">
+
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td id="total">0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <section id="container">
+    </section>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
